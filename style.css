@@ -1,0 +1,136 @@
+* {
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  text-shadow: 6px 8px 4px rgba(0, 0, 0, 25%);
+}
+
+.container {
+  color: white;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero bg {
+  background-size: cover;
+}
+
+.hero img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#landing {
+  height: 100vh;
+}
+
+#landing h1 {
+  position: absolute;
+  z-index: 3;
+  top: 60%;
+  right: 0;
+  left: 20px;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  text-shadow: 6px 8px 4px rgba(0, 0, 0, 25%);
+}
+
+.layer-terakhir {
+  z-index: 2;
+}
+
+.layer-awal {
+  z-index: 4;
+}
+
+.awan {
+  z-index: 2;
+}
+
+@media (min-width: 992px) {
+  #landing h1 {
+    position: absolute;
+    z-index: 3;
+    top: 60%;
+    right: 0;
+    left: 29px;
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    text-shadow: 6px 8px 4px rgba(0, 0, 0, 25%);
+  }
+}
+
+/* About */
+#landing::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #031d1e, transparent);
+  z-index: 5;
+}
+
+#about {
+  padding: 70px 0;
+  color: white;
+  background-color: #031d1e;
+}
+
+#about h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.content {
+  z-index: 5;
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container p {
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+#contact {
+  background-color: #031d1e;
+  height: 863px;
+  padding-top: 200px;
+}
+
+#contact h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #053031;
+  height: 35px;
+}
+
+footer p {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
